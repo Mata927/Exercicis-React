@@ -1,9 +1,17 @@
-
+import { useState } from "react";
 import Titol from './Titol.js';
 import './App.css';
 
 export default function App() {
- 
+  const [selected,setSelected]=useState(null);
+  const[clicka]=useState(selected);
+
+  const toggle = (i) => {
+    if(selected === i){
+      return setSelected(null)
+    }
+    setSelected(i);
+  }
   const acordeo=[ {
     id: 1,title: "Titol 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a consequat nibh. Mauris suscipit arcu at fermentum convallis. Pellentesque consectetur mi in felis maximus posuere."
@@ -27,8 +35,8 @@ export default function App() {
 ];
 
   return (
-    <div className="App">
-      <Titol acordeo={acordeo}/> 
+    <div className="wrapper">
+      <Titol acordeo={acordeo} toggle={toggle} clicka={clicka}/> 
       </div>
   );
 

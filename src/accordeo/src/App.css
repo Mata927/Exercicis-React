@@ -1,24 +1,17 @@
-.App {
+.wrapper {
   background-color: aqua;
-  margin-left: 250px;
-  margin-right: 250px;
-  border: 1px solid;
-  border-radius: 20px;
+  display:flex;
+  height: 710px;
+  width: 766px;
+justify-content: center;
+align-items: center;
 }
 
-.parte1{
-  background-color: orange;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 20px;
-  font-size: 15px;
-  text-align: center;
+.accordio{
+  width: 500px;
   
 }
-h1{
-  text-align: left;
-  margin-left: 25px;
-}
+
   
 
   
