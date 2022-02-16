@@ -35,9 +35,7 @@ export default function App() {
 ];
 
   return (
-    <div className="wrapper">
       <Titol acordeo={acordeo} toggle={toggle} clicka={clicka}/> 
-      </div>
   );
 
 }

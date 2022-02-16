@@ -3,6 +3,7 @@ import './App.css';
 export default function Titol(props) {
 
     return (
+      <div className="wrapper">
       <div className='accordio'>
         {props.acordeo.map((n,i) => (
           <div className='objecto'>
@@ -13,6 +14,7 @@ export default function Titol(props) {
                 <div className='contenido'>{n.description}</div>            
                 </div>
             ))}
+            </div>
             </div>
     );
 
