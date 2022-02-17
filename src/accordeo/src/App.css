@@ -1,17 +1,38 @@
 .wrapper {
-  background-color: aqua;
   display:flex;
-  height: 710px;
-  width: 766px;
-justify-content: center;
-align-items: center;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 25px;
+ 
 }
 
 .accordio{
   width: 500px;
   
 }
+.objeto{
+  background-color:  #fdd990;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+.titulo{
+  color: #85662b;
+  display: flex;
+  justify-content:space-between ;
+  align-items:center ;
+  cursor: pointer;
+}
+.contenido{
+  color :#8b7f75;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}  
 
-  
-
-  
+.contenido.show{
+  height: auto;
+  max-height:9999px;
+  transition: all 0.5 cubic-bezier(1,0,1,0);
+}
