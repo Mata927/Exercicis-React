@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './App.css';
+import './Accordeo.css';
 
 
 export default function App() {
@@ -35,7 +35,10 @@ export default function App() {
 ];
 
   return (
+    <>
+    <h1>Accordeo</h1>
   <div className="wrapper">
+  
       <div className='accordio'>
         {acordeo.map((n,i) => (
           <div className='objecto'>
@@ -50,7 +53,7 @@ export default function App() {
             ))}
             </div>
             </div>
-            
+            </> 
       
     );
 

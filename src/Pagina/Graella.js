@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-expressions */
 import { useState } from "react";
-import './App.css';
+import './Graella.css';
 import Fotos from "./imagenes.js";
 
 

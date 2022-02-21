@@ -3,7 +3,7 @@
   height: 500px;
   width: 500px;
   align-items: center;
-  margin-left: 450px;
+  margin-left: 520px;
   margin-top: 25px;
  
 }
@@ -35,4 +35,7 @@
   height: auto;
   max-height:9999px;
   transition: all 0.5 cubic-bezier(1,0,1,0);
+}
+h1{
+  text-align: center;
 }
