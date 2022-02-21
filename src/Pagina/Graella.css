@@ -3,23 +3,22 @@
 }
 
 .cuadre{
-  background-color: grey;
-  border: 5px solid;
   height: 400px;
   width: 600px;
   margin-left: 450px;
 }
 
 .fotos{
-  background-color: grey;
-  border: 5px double;
   height: 150px;
   width: 180px;
   margin-top: 20px;
   margin-left: 25px;
 }
 .fotos.doble{
-  height: 100%;
-  width: 100%;
+  height: 95%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
  
 }
+
