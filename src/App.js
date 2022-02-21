@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import {HashRouter,Routes,Route} from "react-router-dom";
 import Layout from "./Pagina/Layout.js";
 import Accordeo from "./Pagina/Accordeo.js";
 import Comptador from "./Pagina/Comptador.js";
@@ -12,17 +12,17 @@ import './App.css';
 export default function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <HashRouter>
      <Routes>
        <Route path="/" element={<Layout />}>
          <Route index element={<Home />} />
          <Route path="Accordeo" element={<Accordeo />} />
          <Route path="Comptador" element={<Comptador />} />
-         <Route path="Graella." element={<Graella />} />
+         <Route path="Graella" element={<Graella />} />
          <Route path="toggle17f" element={<Toggle17F />} />
        </Route>
      </Routes>
-   </BrowserRouter>
+   </HashRouter>
     </div>
   );
 }
