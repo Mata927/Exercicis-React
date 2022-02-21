@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './Comptador.css';
 
-export default function App() {
+export default function Comptador() {
   const [count, setCount] = useState(0);
   const valor1=1;
   const valor2=5;
@@ -14,7 +14,7 @@ export default function App() {
 };
   return (
     <div className="App">
-     <h1>Contador</h1>
+     <h1>2. Contador</h1>
      <div className="cuadrado">
      <div className="numero">
       <h1 className="result">{count}</h1>

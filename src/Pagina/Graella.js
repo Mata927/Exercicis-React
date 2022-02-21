@@ -9,7 +9,7 @@ const Foto = [
   "https://okdiario.com/img/2019/07/25/monumentos-mas-famosos-de-europa-655x368.jpg",       
 ];
 
-export default function App() {
+export default function Graella() {
   
 
   const [fotos, setfotos] = useState(false);
@@ -24,6 +24,7 @@ export default function App() {
     
   return (
       <div className="App">
+        <h1>1. Graella</h1>
       <div className="cuadre">
       {Foto.map((n) => (
                 <img className="fotos"

@@ -2,7 +2,7 @@ import { useState } from "react";
 import './Accordeo.css';
 
 
-export default function App() {
+export default function Accordeo() {
   const [selected,setSelected]=useState(null);
   
   const toggle = (i) => {
@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <>
-    <h1>Accordeo</h1>
+    <h1>4. Accordeo</h1>
   <div className="wrapper">
   
       <div className='accordio'>

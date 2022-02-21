@@ -1,10 +1,35 @@
 .App {
   text-align: center;
- background-color:blueviolet;
+  font-family: Redressed;
+  font-size: 20px;
 }
 
-.funciones {
-  text-align: center;
- background-color:blueviolet;
- width: 500px;
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 0.9;
+}
+
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+
+header{
+  background-color: aliceblue;
+  line-height: 5rem;
+  font-size: 50px;
+
+}
+
+@font-face {
+  font-family:Redressed;
+  src: url('Redressed.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
 }

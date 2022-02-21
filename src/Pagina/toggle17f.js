@@ -1,11 +1,11 @@
 import { useState } from "react";
-import './App.css';
+import './toggle17f.css';
 
-export default function App() {
+export default function Toggle17F() {
   const [color, setColor] = useState("greenyellow");
   const Pres = color !== "greenyellow";
 
-  const toggle = () => {
+  const boton = () => {
     if (color === "greenyellow") setColor("red");
     else setColor("greenyellow");
   };
@@ -14,7 +14,7 @@ export default function App() {
       <h1>5. Toggle Button *17F</h1>
       <div className="Cuadro">
         <br />
-      <button style={{ background: color }} onClick={toggle}>
+      <button style={{ background: color }} onClick={boton}>
         Dame por favor
       </button>
       < br />
