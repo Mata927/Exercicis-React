@@ -6,7 +6,7 @@ export default function Exercici1() {
   const num =[63,45,58,56];
 
   const numer = num.map(function(n) {
-    return (<h1>num.momento</h1>);
+    return n.momento;
 });
   
   function Sumar(numero){
