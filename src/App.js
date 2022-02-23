@@ -21,8 +21,7 @@ export default function App() {
          <Route path="Comptador" element={<Comptador />} />
          <Route path="Graella" element={<Graella />} />
          <Route path="toggle17f" element={<Toggle17F />} />
-         <Route path="comprovar" element={<Comprovar />} />
-
+         <Route path="Comprovar" element={<Comprovar />} />
        </Route>
      </Routes>
    </HashRouter>
