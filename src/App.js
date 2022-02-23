@@ -4,7 +4,7 @@ import Accordeo from "./Pagina/Accordeo.js";
 import Comptador from "./Pagina/Comptador.js";
 import Graella from "./Pagina/Graella.js";
 import Toggle17F from "./Pagina/toggle17f.js";
-import Comprovar from "./Pagina/Exercici1.js";
+import Exercici1 from "./Pagina/Exercici1.js";
 import Home from "./Pagina/Home.js";
 import './App.css';
 
@@ -21,7 +21,7 @@ export default function App() {
          <Route path="Comptador" element={<Comptador />} />
          <Route path="Graella" element={<Graella />} />
          <Route path="toggle17f" element={<Toggle17F />} />
-         <Route path="Exercici1" element={<Comprovar />} />
+         <Route path="Exercici1" element={<Exercici1 />} />
        </Route>
      </Routes>
    </HashRouter>
