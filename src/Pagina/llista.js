@@ -9,7 +9,7 @@ const llista = [
   { path: "comptador", titol: "Comptador", element: <Comptador /> },
   { path: "accordeo", titol: "Accordeo", element: <Accordeo /> },
   { path: "toggle17f", titol: "Toggle17F", element: < Toggle17F /> },
-  { path: "exercici1", titol: "Comprovar", element: <Exercici1 /> },
+  { path: "Exercici1", titol: "Exercici1r", element: <Exercici1 /> },
 ];
 
 export default llista;
