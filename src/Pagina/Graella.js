@@ -18,7 +18,7 @@ export default function Graella() {
     return (
 
       <div className="fotos doble">
-         <img src={fotos} onClick={() => setfotos(false)} />
+         <img src={fotos} onClick={() => setfotos(false)}/>
          </div>
     );
     
