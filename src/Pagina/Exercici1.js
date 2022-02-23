@@ -4,6 +4,10 @@ import './Exercici1.css';
 export default function Exercici1() {
 
   const num =[63,45,58,56];
+
+  const numer = num.map(function(n) {
+    return (<h1>num.momento</h1>);
+});
   
   function Sumar(numero){
     let suma=0;
@@ -43,6 +47,7 @@ function Mayor(numero){
   return (
     <div className='App'>
       <h1>6. Exercici 1 de Arrays</h1>
+      <h2>{numer}</h2>
       <Sumar numero={num}/> 
       <Media numero={num}/>   
       <Menor numero={num}/>
