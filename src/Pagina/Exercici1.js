@@ -46,6 +46,7 @@ function Mayor(numero){
   return (
     <div className='App'>
       <h1>6. Exercici 1 de Arrays</h1>
+      <h2>{num}</h2>
       <Sumar numero={num}/> 
       <Media numero={num}/>   
       <Menor numero={num}/>
