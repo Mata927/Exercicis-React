@@ -1,7 +1,7 @@
 
-import './App.css';
+import './Exercici1.css';
 
-export default function App() {
+export default function Exercici1() {
 
   const num =[63,45,58,56];
   
