@@ -5,6 +5,7 @@ export default function Exercici1() {
 
   const num =[63,45,58,56];
   
+
  
   function Sumar(numero){
     let suma=0;
@@ -41,12 +42,10 @@ function Mayor(numero){
   }
   return (<h1>El Mayor es: {mayor}</h1>) ;
 }
-
-
   return (
     <div className='App'>
       <h1>6. Exercici 1 de Arrays</h1>
-      <h2>{num}</h2>
+      <h2>{num.length}</h2>
       <Sumar numero={num}/> 
       <Media numero={num}/>   
       <Menor numero={num}/>
