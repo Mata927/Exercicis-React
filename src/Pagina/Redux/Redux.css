@@ -17,13 +17,7 @@ button{
   background-color: blueviolet;
   border-radius: 5px;
   font-size: 40px;
-  font-size: Redressed;
+ 
 }
 
-@font-face {
-  font-family:Redressed;
-  src: url('Redressed.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
 
-}

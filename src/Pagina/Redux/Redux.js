@@ -1,6 +1,6 @@
-import "./App.css";
+import "./Redux.css";
 import { useDispatch, useSelector } from "react-redux";
-import {increaseCounter,decreaseCounter,reset,getCount} from "./actions/counerActions";
+import {increaseCounter,decreaseCounter,reset,getCount} from "./actions/counterActions";
 
 
 function App() {
