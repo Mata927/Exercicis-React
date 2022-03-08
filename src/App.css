@@ -33,3 +33,12 @@ header{
   font-style: normal;
 
 }
+
+
+.n, .n a{
+  list-style:none;
+  font-size: 28px;
+  text-align: left;
+  text-decoration-line: none;
+  color:black;
+}

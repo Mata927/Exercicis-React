@@ -14,13 +14,14 @@ function App() {
       <div className="color">
         <br/>
       <div id="num">{count}</div>
-      <button onClick={()=> dispatch(increaseCounter(1))}>+1</button>
-      <button onClick={()=> dispatch(decreaseCounter(1))}>-1</button>
       <br/>
-      <button onClick={()=> dispatch(increaseCounter(5))}>+5</button>
-      <button onClick={()=> dispatch(decreaseCounter(5))}>-5</button>
+      <button id="button" onClick={()=> dispatch(increaseCounter(1))}>+1</button>
+      <button id="button"onClick={()=> dispatch(decreaseCounter(1))}>-1</button>
       <br/>
-      <button onClick={()=> dispatch(reset())}>RESET</button>
+      <button id="button" onClick={()=> dispatch(increaseCounter(5))}>+5</button>
+      <button id="button" onClick={()=> dispatch(decreaseCounter(5))}>-5</button>
+      <br/>
+      <button id="button" onClick={()=> dispatch(reset())}>RESET</button>
       </div>
     </div>
   );
