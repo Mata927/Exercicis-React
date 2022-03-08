@@ -12,7 +12,7 @@ const llista = [
   { path: "comptador", titol: "Comptador", element: <Comptador /> },
   { path: "accordeo", titol: "Accordeo", element: <Accordeo /> },
   { path: "toggle17f", titol: "Toggle17F", element: <Toggle17F /> },
-  { path: "exercici1", titol: "Exercici1", element: <Exercici1 /> },
+  { path: "exercici1", titol: "Vectors Enters", element: <Exercici1 /> },
   { path: "redux", titol: "Redux", element: <Redux /> },
   { path: "reloj", titol: "Reloj", element: <Reloj/>}
 ];

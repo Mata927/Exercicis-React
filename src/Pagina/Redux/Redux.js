@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Contador Redux</h1>
+      <h1>6. Contador Redux</h1>
       <div className="color">
         <br/>
       <div id="num">{count}</div>

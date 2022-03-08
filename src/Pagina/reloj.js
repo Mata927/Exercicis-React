@@ -51,7 +51,7 @@ export default function App() {
 
   return (
     <div className="App">
-      
+     <h1>7. Reloj</h1> 
       <div>
         <h1>{dateTime.hours}:{dateTime.minutes}:{dateTime.seconds}</h1>
         <div className={mostrarComponente ? "show-element" : null}>

@@ -36,7 +36,7 @@ export default function Accordeo() {
 
   return (
     <>
-    <h1>4. Accordeo</h1>
+    <h1>3. Accordeo</h1>
   <div className="wrapper">
   
       <div className='accordio'>

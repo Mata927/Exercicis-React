@@ -11,7 +11,7 @@ export default function Toggle17F() {
   };
   return (
     <div className="App">
-      <h1>5. Toggle Button *17F</h1>
+      <h1>4. Toggle Button *17F</h1>
       <div className="Cuadro">
         <br />
       <button style={{ background: color }} onClick={boton}>
