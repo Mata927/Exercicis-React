@@ -7,7 +7,7 @@ import Toggle17F from "./Pagina/toggle17f.js";
 import Exercici1 from "./Pagina/Exercici1.js";
 import Home from "./Pagina/Home.js";
 import Redux from "./Pagina/Redux/Redux.js";
-import Reloj from "./Pagina/relojdigital/src/reloj.js";
+import Reloj from "./Pagina/reloj.js";
 import './App.css';
 
 

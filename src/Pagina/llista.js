@@ -4,7 +4,7 @@ import Graella from "./Graella";
 import Toggle17F from "./toggle17f";
 import Exercici1 from "./Exercici1";
 import Redux from "./Redux/Redux";
-import Reloj from "./relojdigital/src/reloj.js";
+import Reloj from "./reloj.js";
 
 
 const llista = [
