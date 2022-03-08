@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Exercicis-React/static/css/main.245aedd1.css",
-    "main.js": "/Exercicis-React/static/js/main.22d09a28.js",
+    "main.js": "/Exercicis-React/static/js/main.c45fdf4f.js",
     "static/media/Redressed.ttf": "/Exercicis-React/static/media/Redressed.05878c96e0fd91cc4155.ttf",
     "index.html": "/Exercicis-React/index.html",
     "main.245aedd1.css.map": "/Exercicis-React/static/css/main.245aedd1.css.map",
-    "main.22d09a28.js.map": "/Exercicis-React/static/js/main.22d09a28.js.map"
+    "main.c45fdf4f.js.map": "/Exercicis-React/static/js/main.c45fdf4f.js.map"
   },
   "entrypoints": [
     "static/css/main.245aedd1.css",
-    "static/js/main.22d09a28.js"
+    "static/js/main.c45fdf4f.js"
   ]
 }
