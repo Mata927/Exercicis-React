@@ -8,6 +8,7 @@ import Exercici1 from "./Pagina/Exercici1.js";
 import Home from "./Pagina/Home.js";
 import Redux from "./Pagina/Redux/Redux.js";
 import Reloj from "./Pagina/reloj.js";
+import Calculadora from "./Pagina/calculadora";
 import './App.css';
 
 
@@ -28,6 +29,7 @@ export default function App() {
          <Route path="Exercici1" element={<Exercici1 />} />
          <Route path="Redux" element={<Redux />} />
          <Route path="Reloj" element={<Reloj />} />
+         <Route path="Calculadora" element={<Calculadora />} />
        </Route>
      </Routes>
    </HashRouter>

@@ -4,10 +4,8 @@ import './Exercici1.css';
 export default function Exercici1() {
 
   const num =[63,45,58,56];
+  
 
-  const numer = num.map(function(n) {
-    return n.momento;
-});
   
   function Sumar(numero){
     let suma=0;
@@ -47,7 +45,11 @@ function Mayor(numero){
   return (
     <div className='App'>
       <h1>5. Vectors Enters</h1>
-      <h2>{numer}</h2>
+      <h2>[{num.map((n) => (
+            <label>{n},</label>
+          ))}]
+      </h2>
+     
       <Sumar numero={num}/> 
       <Media numero={num}/>   
       <Menor numero={num}/>

@@ -1,0 +1,45 @@
+
+.numeros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+:is(.numeros, .butons ) button{
+  flex: 0 0 33%;
+  padding: 20px 0;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.calculadora{
+margin : 0 auto;
+max-width: 300px;
+}
+.display{
+  text-align: right;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.numeros button:hover{
+  background-color: yellow;
+}
+
+h1{
+  text-align: center;
+}
+
+.numeros button:active{
+  background-color: salmon;
+}
+
+.butons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
