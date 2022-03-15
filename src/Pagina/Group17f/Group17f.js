@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Group17f.css";
-import Boton from "./Boton";
+import Boton from "./Boto";
 
 export default function GroupButton17F() {
   const [color, setColor] = useState("GroupButton17F__BotonNormal");

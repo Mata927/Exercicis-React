@@ -2,14 +2,13 @@ import { useState } from "react";
 import "./Carrusel.css";
 import MostrarBarraInferior from "./MostrarBarraInferior";
 import MostrarImatge from "./MostrarImatge";
-import carrusel1 from "./images/carrusel1.jpg";
-import carrusel2 from "./images/carrusel2.jpg";
-import carrusel3 from "./images/carrusel3.jpg";
-import carrusel4 from "./images/carrusel4.jpg";
-import carrusel5 from "./images/carrusel5.jpg";
-import carrusel6 from "./images/carrusel6.jpg";
-import carrusel7 from "./images/carrusel7.jpg";
-import carrusel8 from "./images/carrusel8.jpg";
+import carrusel1 from "./Images/carrusel1.jpg";
+import carrusel2 from "./Images/carrusel2.jpg";
+import carrusel3 from "./Images/carrusel3.jpg";
+import carrusel4 from "./Images/carrusel4.jpg";
+import carrusel5 from "./Images/carrusel5.jpg";
+
+
 
 export default function Carrusel() {
   const imatges = [
@@ -18,9 +17,6 @@ export default function Carrusel() {
     carrusel3,
     carrusel4,
     carrusel5,
-    carrusel6,
-    carrusel7,
-    carrusel8,
   ];
   const [imatgeActual, setImatgeActual] = useState(imatges[0]);
   const [idActual, setId] = useState(0);
