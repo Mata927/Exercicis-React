@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Exercicis-React/static/css/main.b31ab8d6.css",
-    "main.js": "/Exercicis-React/static/js/main.7819ba3d.js",
+    "main.js": "/Exercicis-React/static/js/main.ae252342.js",
     "static/media/carrusel1.jpg": "/Exercicis-React/static/media/carrusel1.df5d25dfee2552c8bc0b.jpg",
     "static/media/carrusel4.jpg": "/Exercicis-React/static/media/carrusel4.8272f4bca512ac0aa391.jpg",
     "static/media/carrusel3.jpg": "/Exercicis-React/static/media/carrusel3.813764fec1ec7c61ae1b.jpg",
@@ -10,10 +10,10 @@
     "static/media/carrusel5.jpg": "/Exercicis-React/static/media/carrusel5.74441e2a5000e2c82119.jpg",
     "index.html": "/Exercicis-React/index.html",
     "main.b31ab8d6.css.map": "/Exercicis-React/static/css/main.b31ab8d6.css.map",
-    "main.7819ba3d.js.map": "/Exercicis-React/static/js/main.7819ba3d.js.map"
+    "main.ae252342.js.map": "/Exercicis-React/static/js/main.ae252342.js.map"
   },
   "entrypoints": [
     "static/css/main.b31ab8d6.css",
-    "static/js/main.7819ba3d.js"
+    "static/js/main.ae252342.js"
   ]
 }
