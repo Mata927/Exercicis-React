@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Exercicis-React/static/css/main.b31ab8d6.css",
+    "main.css": "/Exercicis-React/static/css/main.de3eb4bb.css",
     "main.js": "/Exercicis-React/static/js/main.ae252342.js",
     "static/media/carrusel1.jpg": "/Exercicis-React/static/media/carrusel1.df5d25dfee2552c8bc0b.jpg",
     "static/media/carrusel4.jpg": "/Exercicis-React/static/media/carrusel4.8272f4bca512ac0aa391.jpg",
@@ -9,11 +9,11 @@
     "static/media/carrusel2.jpg": "/Exercicis-React/static/media/carrusel2.678b1691b5f16979bfc1.jpg",
     "static/media/carrusel5.jpg": "/Exercicis-React/static/media/carrusel5.74441e2a5000e2c82119.jpg",
     "index.html": "/Exercicis-React/index.html",
-    "main.b31ab8d6.css.map": "/Exercicis-React/static/css/main.b31ab8d6.css.map",
+    "main.de3eb4bb.css.map": "/Exercicis-React/static/css/main.de3eb4bb.css.map",
     "main.ae252342.js.map": "/Exercicis-React/static/js/main.ae252342.js.map"
   },
   "entrypoints": [
-    "static/css/main.b31ab8d6.css",
+    "static/css/main.de3eb4bb.css",
     "static/js/main.ae252342.js"
   ]
 }
